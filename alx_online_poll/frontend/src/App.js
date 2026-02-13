@@ -25,7 +25,8 @@ function App() {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4 min-h-screen bg-red-50">
+      
       <h1 className="text-2xl font-bold mb-4">Online Polls</h1>
       {polls.map(poll => (
         <div key={poll.id} className="mb-6 border p-4 rounded">
